@@ -36,7 +36,7 @@ body{
 input[type ="checkbox"]{
     cursor: pointer;
 }
-.campoForm button{
+button{
     width: 50%;
     height: 40px;
     color: white;
@@ -47,7 +47,7 @@ input[type ="checkbox"]{
     cursor: pointer;
     transition: 0.2s;
 }
-.campoForm button:hover{
+button:hover{
     transform: scale(1.05);
 }
 #informacoesPessoas{
@@ -83,4 +83,11 @@ th, td{
 }
 td:nth-child(odd){
     background-color: grey;
+}
+#areaBotoes{
+    text-align: center;
+    margin-top: 20px;
+}
+#areaBotoes button{
+    margin: 10px;
 }
