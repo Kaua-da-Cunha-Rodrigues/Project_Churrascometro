@@ -1,0 +1,86 @@
+body{
+    min-height: 97vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #52678E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    width: 400px;
+    background-color: #C9D2E3;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.conteudo h1{
+    text-align: center;
+}
+.campoForm{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 5px;
+}
+.campoForm:last-child{
+    align-items: center;
+}
+.campoForm input{
+    height: 25px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    padding: 5px;
+}
+input[type ="checkbox"]{
+    cursor: pointer;
+}
+.campoForm button{
+    width: 50%;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: #526329;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.campoForm button:hover{
+    transform: scale(1.05);
+}
+#informacoesPessoas{
+    display: flex;
+    justify-content: center;
+}
+#informacoesPessoas ul{
+    columns: 2;
+}
+.areaTabela{
+    display: flex;
+    justify-content: center;
+}
+#tabelaRecomendada{
+    width: 90%;
+    background-color: white;
+    border-collapse: collapse;
+}
+#tabelaRecomendada, th, td{
+    border: 1px solid black;
+}
+thead th{
+    background-color: #526329;
+    color: white;
+    font-size: 1.5em;
+}
+th{
+    background-color: #DBE3CA; 
+    
+}
+th, td{
+    padding: 10px;
+}
+td:nth-child(odd){
+    background-color: grey;
+}
